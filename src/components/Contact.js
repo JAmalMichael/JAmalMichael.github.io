@@ -31,7 +31,7 @@ export default function Contact(props) {
             For The Next<br/>
             Project
         </h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} netlify>
                 <input 
                 type='text'
                 name='Name'
